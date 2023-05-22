@@ -67,7 +67,7 @@ body {
     /*w3school-flexbox-container */
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;    
+    margin: 20px 10px;    
     /* w3school-animation */
     width: 50%;
     margin: auto;
@@ -83,12 +83,19 @@ body {
   .project a {
     margin: 0 10px;
   }
-  
+
+  */
   .project img {
     width: 100px;
     height: 100px;
+/* W3school-Transition-property */
+    transition: transform 0.5s ease-in-out
   }
-  
+
+  .project img:hover {
+    transform: scale(1.1);
+  }
+  /* W3school-Transition-property */
   .project a.active img {
     width: 150px;
     height: 150px;
