@@ -3,6 +3,15 @@ In this repo, I will be making my "Coding Portfolio". Inside said portfolio will
 ## Sources
     These are either codes I have used or lessons I had to look through in order to create this portfolio.
 W3School Animation Code: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
 W3School Flexbox Container Code: https://www.w3schools.com/css/css3_flexbox_container.asp
 W3School Transition Property https://www.w3schools.com/cssref/css3_pr_transition.php
 W3School CSS Grid Container https://www.w3schools.com/css/css_grid_container.asp 
