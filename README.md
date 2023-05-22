@@ -1,5 +1,5 @@
 # Challenge-Week-Two
-In this repo, I will be making my "Coding Portfolio"
+In this repo, I will be making my "Coding Portfolio". Inside said portfolio will have my name, an "About Me" section, Projects, and contact information.
 ## Sources
     These are either codes I have used or lessons I had to look through in order to create this portfolio.
 W3School Animation Code: https://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1
