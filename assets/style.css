@@ -1,17 +1,29 @@
-body, h1, p, ul, li {
+h1, p, ul, li {
     margin: 0;
     padding: 0;
   }
+
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+/* 30SecondsofCode code */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
   
   /* Styling for header and navigation */
   header {
     background-color: darkgreen !important;
     color: #fff;
-    padding: 10px;
+    padding: 30px;
+
   }
 
 .project-indent{
-    margin-left: 30%
+    margin-left: 25%
 }
   
   nav ul {
@@ -32,6 +44,7 @@ body, h1, p, ul, li {
   /* Styling for main content */
   main {
     padding: 20px;
+    background-attachment: fixed;
   }
   
   #about {
@@ -49,27 +62,83 @@ body, h1, p, ul, li {
   .big {
     width: 200px;
   }
-  .applications {
-    display: flex;
+  .project {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-flow: row;
+    column-gap: 100px;
+    /*w3school-flexbox-container */
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 10px;    
+    /* w3school-animation */
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-style: groove;
+    background-color: lightgreen;
+    animation-name: example;
+    animation-duration: 20s;
+    /* w3school-animation */
   }
   
-  .applications a {
+  .project a {
     margin: 0 10px;
+    padding: 30px;
   }
-  
-  .applications img {
-    width: 100px;
-    height: 100px;
+
+ 
+  .project img {
+    width: 200px;
+    height: 200px;
+/* W3school-Transition-property */
+    transition: transform 0.5s ease-in-out
   }
-  
-  .applications a.active img {
-    width: 150px;
-    height: 150px;
+
+  .project img:hover {
+    transform: scale(1.1);
+  }
+  /* W3school-Transition-property */
+  .project a.active img {
+    width: 250px;
+    height: 250px;
   }
   #contact {
     text-align: center;
     margin-bottom: 20px;
     padding: 50px;
+    display: flexbox;
+    flex-direction: column;
   }
+
+footer {
+    background-color: darkgreen !important;
+    color: #fff;
+    padding: 30px;
+    /* 30SecondsofCode code */
+    margin-top: auto;
+    
+}
+
+header > nav > ul > li > a{
+    padding: 200px;
+/* 30SecondsofCode code */
+} 
+/* w3school-animation */
+  @keyframes example {
+    from {background-color: lightgreen;}
+    to {background-color: yellow;}
+  }
+
+/* w3school-animation */
+
+@media (min-width: 480px) {
+    #about img {
+        width: 150px;
+        height: 150px;
+    }
+}
+.header {
+        flex: wrap;
+    }
