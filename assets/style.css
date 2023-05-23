@@ -5,17 +5,17 @@ h1, p, ul, li {
 
   h1 {
     font-family:'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 100px;
   }
 
   h2 {
       font-family:'Courier New', Courier, monospace;
-      font-size: 30px;
+      font-size: 70px;
     }
 
     h4{
         font-family:'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     h4 > p {
@@ -25,6 +25,7 @@ body {
     
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: lightgreen;
 /* 30SecondsofCode code */
     min-height: 100vh;
     display: flex;
@@ -65,7 +66,7 @@ body {
     background-attachment: fixed;
   }
   .about-me {
-    font-size: 30px;
+    font-size: 40px;
     background-color: green;
     color: white !important;
     border: auto 1px solid;
@@ -87,9 +88,7 @@ body {
     border-radius: 50%;
     margin-bottom: 10px;
   }
-  .big {
-    width: 200px;
-  }
+
   .project {
     display: flex !important;
     justify-content: center;
@@ -102,27 +101,27 @@ body {
     justify-content: center;
     margin: 20px 10px;    
     /* w3school-animation */
-    max-width: 70%;
+    max-width: 100%;
     margin: auto;
     padding: 30px;
     box-sizing: border-box;
     border-style: groove;
     background-color: lightgreen;
     animation-name: example;
-    animation-duration: 20s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     /* w3school-animation */
   }
   
   .project a {
-    margin: 0 10px;
-    padding: 10px;
-    font-size: 25px;
+    margin: 20px 20px;
+    padding: 20px;
+    font-size: 35px;
   }
-
- 
+  
   .project img {
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 400px;
 /* W3school-Transition-property */
     transition: transform 0.5s ease-in-out
   }
@@ -132,8 +131,8 @@ body {
   }
   /* W3school-Transition-property */
   .project a.active img {
-    width: 350px;
-    height: 350px;
+    width: 950px;
+    height: 850px;
   }
   #contact {
     text-align: center;
