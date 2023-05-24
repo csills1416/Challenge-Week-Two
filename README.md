@@ -16,7 +16,11 @@ Developer Mozilla "html-element-span" Code: https://developer.mozilla.org/en-US/
 ## Images
     These are links to the images that I used.
 html image: 94536444 © creativecommonsstockphotos |https://www.dreamstime.com/html-code-page-view-screen-piece-public-domain-image-free-94536444 
+
 css image: 109924442 © creativecommonsstockphotos | https://www.dreamstime.com/photo-gray-dell-laptop-displaying-pexels-webpage-public-domain-image-free-109924442 
+
 java image: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png 
+
 book image: https://commons.wikimedia.org/wiki/File:Book_flask_MET_DP253042.jpg
+
 python image: https://commons.wikimedia.org/wiki/File:Python_add5_parse.png
