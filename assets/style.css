@@ -3,18 +3,18 @@ h1, p, ul, li {
     padding: 0;
   }
 
+  h1, h2, h4{
+    font-family: 'Courier New', Courier, monospace
+  }
   h1 {
-    font-family:'Courier New', Courier, monospace;
     font-size: 100px;
   }
 
   h2 {
-      font-family:'Courier New', Courier, monospace;
       font-size: 70px;
     }
 
     h4{
-        font-family:'Courier New', Courier, monospace;
         font-size: 40px;
     }
 
@@ -38,6 +38,7 @@ body {
     background-color: darkgreen !important;
     color: #fff;
     padding: 30px;
+    font-size: 40px;
 
   }
 
@@ -90,15 +91,10 @@ body {
   }
 
   .project {
-    display: flex !important;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    place-items: center;
-    grid-template-columns: auto 1fr;
-    grid-auto-flow: column;
     /*w3school-flexbox-container */
     flex-wrap: wrap;
-    justify-content: center;
     margin: 20px 10px;    
     /* w3school-animation */
     max-width: 100%;
@@ -119,17 +115,23 @@ body {
     font-size: 35px;
   }
   
+  .project-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   .project img {
     width: 450px;
     height: 400px;
-/* W3school-Transition-property */
+/* W3school-Transition-property: Begin*/
     transition: transform 0.5s ease-in-out
   }
 
   .project img:hover {
     transform: scale(1.1);
   }
-  /* W3school-Transition-property */
+  /* W3school-Transition-property: End */
   .project a.active img {
     width: 950px;
     height: 850px;
@@ -144,7 +146,7 @@ body {
   }
 
 footer {
-    background-color: darkgreen !important;
+    background-color: darkgreen;
     color: #fff;
     padding: 30px;
     /* 30SecondsofCode code */
@@ -171,5 +173,6 @@ header > nav > ul > li > a{
     }
 }
 .header {
+    display: flex;
         flex: wrap;
     }
