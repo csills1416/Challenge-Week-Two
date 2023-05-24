@@ -9,6 +9,8 @@ W3School Flexbox Container Code: https://www.w3schools.com/css/css3_flexbox_cont
 W3School Transition Property https://www.w3schools.com/cssref/css3_pr_transition.php
 W3School CSS Grid Container https://www.w3schools.com/css/css_grid_container.asp 
 
+Developer Mozilla "html-element-span" Code: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
+
 ## Images
     These are links to the images that I used.
 html image: 94536444 © creativecommonsstockphotos |https://www.dreamstime.com/html-code-page-view-screen-piece-public-domain-image-free-94536444 
