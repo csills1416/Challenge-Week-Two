@@ -6,7 +6,9 @@ W3School Animation Code: https://www.w3schools.com/css/tryit.asp?filename=trycss
 
 
 W3School Flexbox Container Code: https://www.w3schools.com/css/css3_flexbox_container.asp
+
 W3School Transition Property https://www.w3schools.com/cssref/css3_pr_transition.php
+
 W3School CSS Grid Container https://www.w3schools.com/css/css_grid_container.asp 
 
 Developer Mozilla "html-element-span" Code: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
